@@ -1,2 +1,2 @@
 # IOT-Restrcited-Area
-MiniProject
+Is a zone for which a laser enabled alarm is responsible for any trespassers. A laser and an alarm is attached on the opposite ends of the entrance (usually at door ends) such that this system covers a horizontal part of the entrance. This alarm is powered by a light sensor, both are connected using a Raspberry Pi. Laser from one end of the entrance shoots directly on to the light sensor. When a trespasser blocks the laser (even for a small period of time) a code responsible for enabling the alarm based on light sensitivity gets activated. This makes the alarm active for a stipulated amount of time. At the same time a twitter bot automatically generates and tweets to the owner of the device
